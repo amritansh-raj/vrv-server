@@ -1,0 +1,9 @@
+services:
+  json-server:
+    image: node:16-alpine
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "9000:9000"
+    command: sh -c "npm install && npm run json-server"
