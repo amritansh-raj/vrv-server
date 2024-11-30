@@ -11,12 +11,12 @@
     {
       "id": "0b7e",
       "name": "dasdas",
-      "email": "student3@gmail.com",
-      "password": "abcdefgh",
+      "email": "user@gmail.com",
+      "password": "user@123",
       "role": "user",
       "status": "active",
       "permissions": {
-        "add": false,
+        "add": true,
         "delete": true,
         "update": false
       }
